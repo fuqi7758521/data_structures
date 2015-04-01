@@ -8,7 +8,7 @@ public class OrderArrayApp {
 		OrderArray oa = new OrderArray(100);
 		fillOrderArray(oa);
 		oa.show();
-		int searchKey = 30;
+		int searchKey = 31;
 		Map<String, Object> result = oa.binarySearch(searchKey);
 		Integer pos = (Integer) result.get("pos");
 		Integer compareCount = (Integer) result.get("compareCount");
